@@ -1,0 +1,51 @@
+.footer {
+    background-color: var(--first-color-lighten);
+    padding-bottom: 2rem;
+
+    &__container {
+        row-gap: 2rem;
+    }
+
+    &__logo,
+    &__title {
+        font-size: var(--fs-lg);
+        margin-bottom: var(--space-2);
+    }
+
+    &__logo {
+        display: inline-block;
+        font-weight: var(--fw-semi-bold);
+        color: var(--title-color);
+    }
+
+    &__description,
+    &__link {
+        font-size: var(--fs-sm);
+    }
+
+    &__links {
+        display: grid;
+        row-gap: 0.5rem;
+    }
+
+    &__link {
+        color: var(--title-color);
+    }
+
+    &__social {
+        display: flex;
+        column-gap: 1.5rem;
+    }
+
+    &__social-link {
+        font-size: 1.25rem;
+        color: var(--title-color);
+    }
+
+    &__copy {
+        margin-top: 6rem;
+        text-align: center;
+        font-size: var(--fs-xs);
+        color: var(--text-color);
+    }
+}

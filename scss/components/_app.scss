@@ -1,0 +1,20 @@
+.app {
+    &__container {
+        gap: 2.5rem;
+    }
+
+    &__data {
+        text-align: center;
+    }
+
+    &__description {
+        margin-bottom: var(--space-3);
+    }
+
+    &__buttons {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        gap: 0.5rem;
+    }
+}

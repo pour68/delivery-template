@@ -1,0 +1,15 @@
+.home {
+    &__container {
+        row-gap: 3rem;
+    }
+
+    &__title {
+        font-size: var(--fs-big);
+        font-weight: var(--fw-bold);
+        margin-bottom: var(--space-1);
+    }
+
+    &__description {
+        margin-bottom: var(--space-4);
+    }
+}
